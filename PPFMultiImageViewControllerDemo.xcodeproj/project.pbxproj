@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0425EED822B9E75A00EFCF51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425EED722B9E75A00EFCF51 /* AppDelegate.swift */; };
+		0425EEDA22B9E75A00EFCF51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425EED922B9E75A00EFCF51 /* ViewController.swift */; };
+		0425EEDD22B9E75A00EFCF51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0425EEDB22B9E75A00EFCF51 /* Main.storyboard */; };
+		0425EEDF22B9E75E00EFCF51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0425EEDE22B9E75E00EFCF51 /* Assets.xcassets */; };
+		0425EEE222B9E75E00EFCF51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0425EEE022B9E75E00EFCF51 /* LaunchScreen.storyboard */; };
+		0425EEF222B9E8F700EFCF51 /* PPFMultiImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425EEEC22B9E8F700EFCF51 /* PPFMultiImageModel.swift */; };
+		0425EEF322B9E8F700EFCF51 /* PPFMultiImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425EEEE22B9E8F700EFCF51 /* PPFMultiImageViewController.swift */; };
+		0425EEF422B9E8F700EFCF51 /* PPFOneImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425EEEF22B9E8F700EFCF51 /* PPFOneImageViewController.swift */; };
+		0425EEF522B9E8F700EFCF51 /* readMe in Resources */ = {isa = PBXBuildFile; fileRef = 0425EEF022B9E8F700EFCF51 /* readMe */; };
+		0425EEF922BA1CEB00EFCF51 /* backImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0425EEF722BA1CEB00EFCF51 /* backImage@2x.png */; };
+		0425EEFA22BA1CEB00EFCF51 /* backImage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0425EEF822BA1CEB00EFCF51 /* backImage@3x.png */; };
+		05EC9FBC088380F9608136A2 /* Pods_PPFMultiImageViewControllerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F60ACF6017EAA70D06B82664 /* Pods_PPFMultiImageViewControllerDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0425EED422B9E75900EFCF51 /* PPFMultiImageViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PPFMultiImageViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0425EED722B9E75A00EFCF51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0425EED922B9E75A00EFCF51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0425EEDC22B9E75A00EFCF51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0425EEDE22B9E75E00EFCF51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0425EEE122B9E75E00EFCF51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0425EEE322B9E75E00EFCF51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0425EEEC22B9E8F700EFCF51 /* PPFMultiImageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PPFMultiImageModel.swift; sourceTree = "<group>"; };
+		0425EEEE22B9E8F700EFCF51 /* PPFMultiImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PPFMultiImageViewController.swift; sourceTree = "<group>"; };
+		0425EEEF22B9E8F700EFCF51 /* PPFOneImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PPFOneImageViewController.swift; sourceTree = "<group>"; };
+		0425EEF022B9E8F700EFCF51 /* readMe */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readMe; sourceTree = "<group>"; };
+		0425EEF722BA1CEB00EFCF51 /* backImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backImage@2x.png"; sourceTree = "<group>"; };
+		0425EEF822BA1CEB00EFCF51 /* backImage@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backImage@3x.png"; sourceTree = "<group>"; };
+		315EAC391A678C744F5A483C /* Pods-PPFMultiImageViewControllerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PPFMultiImageViewControllerDemo.release.xcconfig"; path = "Target Support Files/Pods-PPFMultiImageViewControllerDemo/Pods-PPFMultiImageViewControllerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		39B5E9332E914DF7C22630D3 /* Pods-PPFMultiImageViewControllerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PPFMultiImageViewControllerDemo.debug.xcconfig"; path = "Target Support Files/Pods-PPFMultiImageViewControllerDemo/Pods-PPFMultiImageViewControllerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F60ACF6017EAA70D06B82664 /* Pods_PPFMultiImageViewControllerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PPFMultiImageViewControllerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0425EED122B9E75900EFCF51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05EC9FBC088380F9608136A2 /* Pods_PPFMultiImageViewControllerDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0425EECB22B9E75900EFCF51 = {
+			isa = PBXGroup;
+			children = (
+				0425EED622B9E75900EFCF51 /* PPFMultiImageViewControllerDemo */,
+				0425EED522B9E75900EFCF51 /* Products */,
+				C2338064FA41C4C744164465 /* Pods */,
+				76AACF849E96172642DF6D62 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0425EED522B9E75900EFCF51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0425EED422B9E75900EFCF51 /* PPFMultiImageViewControllerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0425EED622B9E75900EFCF51 /* PPFMultiImageViewControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0425EEE922B9E7A500EFCF51 /* sources */,
+				0425EED722B9E75A00EFCF51 /* AppDelegate.swift */,
+				0425EED922B9E75A00EFCF51 /* ViewController.swift */,
+				0425EEDB22B9E75A00EFCF51 /* Main.storyboard */,
+				0425EEDE22B9E75E00EFCF51 /* Assets.xcassets */,
+				0425EEE022B9E75E00EFCF51 /* LaunchScreen.storyboard */,
+				0425EEE322B9E75E00EFCF51 /* Info.plist */,
+			);
+			path = PPFMultiImageViewControllerDemo;
+			sourceTree = "<group>";
+		};
+		0425EEE922B9E7A500EFCF51 /* sources */ = {
+			isa = PBXGroup;
+			children = (
+				0425EEF622BA1BE200EFCF51 /* src */,
+				0425EEEA22B9E8F700EFCF51 /* model */,
+				0425EEF022B9E8F700EFCF51 /* readMe */,
+				0425EEED22B9E8F700EFCF51 /* viewController */,
+			);
+			path = sources;
+			sourceTree = "<group>";
+		};
+		0425EEEA22B9E8F700EFCF51 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				0425EEEC22B9E8F700EFCF51 /* PPFMultiImageModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		0425EEED22B9E8F700EFCF51 /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				0425EEEE22B9E8F700EFCF51 /* PPFMultiImageViewController.swift */,
+				0425EEEF22B9E8F700EFCF51 /* PPFOneImageViewController.swift */,
+			);
+			path = viewController;
+			sourceTree = "<group>";
+		};
+		0425EEF622BA1BE200EFCF51 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				0425EEF722BA1CEB00EFCF51 /* backImage@2x.png */,
+				0425EEF822BA1CEB00EFCF51 /* backImage@3x.png */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		76AACF849E96172642DF6D62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F60ACF6017EAA70D06B82664 /* Pods_PPFMultiImageViewControllerDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2338064FA41C4C744164465 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39B5E9332E914DF7C22630D3 /* Pods-PPFMultiImageViewControllerDemo.debug.xcconfig */,
+				315EAC391A678C744F5A483C /* Pods-PPFMultiImageViewControllerDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0425EED322B9E75900EFCF51 /* PPFMultiImageViewControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0425EEE622B9E75E00EFCF51 /* Build configuration list for PBXNativeTarget "PPFMultiImageViewControllerDemo" */;
+			buildPhases = (
+				06D2E670D7D5D224107520A6 /* [CP] Check Pods Manifest.lock */,
+				0425EED022B9E75900EFCF51 /* Sources */,
+				0425EED122B9E75900EFCF51 /* Frameworks */,
+				0425EED222B9E75900EFCF51 /* Resources */,
+				5230284581C751BD06E5415A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PPFMultiImageViewControllerDemo;
+			productName = PPFMultiImageViewControllerDemo;
+			productReference = 0425EED422B9E75900EFCF51 /* PPFMultiImageViewControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0425EECC22B9E75900EFCF51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "潘鹏飞";
+				TargetAttributes = {
+					0425EED322B9E75900EFCF51 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 0425EECF22B9E75900EFCF51 /* Build configuration list for PBXProject "PPFMultiImageViewControllerDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0425EECB22B9E75900EFCF51;
+			productRefGroup = 0425EED522B9E75900EFCF51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0425EED322B9E75900EFCF51 /* PPFMultiImageViewControllerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0425EED222B9E75900EFCF51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0425EEF522B9E8F700EFCF51 /* readMe in Resources */,
+				0425EEE222B9E75E00EFCF51 /* LaunchScreen.storyboard in Resources */,
+				0425EEFA22BA1CEB00EFCF51 /* backImage@3x.png in Resources */,
+				0425EEDF22B9E75E00EFCF51 /* Assets.xcassets in Resources */,
+				0425EEDD22B9E75A00EFCF51 /* Main.storyboard in Resources */,
+				0425EEF922BA1CEB00EFCF51 /* backImage@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06D2E670D7D5D224107520A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PPFMultiImageViewControllerDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5230284581C751BD06E5415A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PPFMultiImageViewControllerDemo/Pods-PPFMultiImageViewControllerDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PPFMultiImageViewControllerDemo/Pods-PPFMultiImageViewControllerDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PPFMultiImageViewControllerDemo/Pods-PPFMultiImageViewControllerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0425EED022B9E75900EFCF51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0425EEF322B9E8F700EFCF51 /* PPFMultiImageViewController.swift in Sources */,
+				0425EEF222B9E8F700EFCF51 /* PPFMultiImageModel.swift in Sources */,
+				0425EEDA22B9E75A00EFCF51 /* ViewController.swift in Sources */,
+				0425EEF422B9E8F700EFCF51 /* PPFOneImageViewController.swift in Sources */,
+				0425EED822B9E75A00EFCF51 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0425EEDB22B9E75A00EFCF51 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0425EEDC22B9E75A00EFCF51 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0425EEE022B9E75E00EFCF51 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0425EEE122B9E75E00EFCF51 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0425EEE422B9E75E00EFCF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0425EEE522B9E75E00EFCF51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0425EEE722B9E75E00EFCF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39B5E9332E914DF7C22630D3 /* Pods-PPFMultiImageViewControllerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3G99T2JL44;
+				INFOPLIST_FILE = PPFMultiImageViewControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fwzspt.PPFMultiImageViewControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0425EEE822B9E75E00EFCF51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 315EAC391A678C744F5A483C /* Pods-PPFMultiImageViewControllerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3G99T2JL44;
+				INFOPLIST_FILE = PPFMultiImageViewControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fwzspt.PPFMultiImageViewControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0425EECF22B9E75900EFCF51 /* Build configuration list for PBXProject "PPFMultiImageViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0425EEE422B9E75E00EFCF51 /* Debug */,
+				0425EEE522B9E75E00EFCF51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0425EEE622B9E75E00EFCF51 /* Build configuration list for PBXNativeTarget "PPFMultiImageViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0425EEE722B9E75E00EFCF51 /* Debug */,
+				0425EEE822B9E75E00EFCF51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0425EECC22B9E75900EFCF51 /* Project object */;
+}
