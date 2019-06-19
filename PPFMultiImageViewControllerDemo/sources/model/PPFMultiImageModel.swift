@@ -22,7 +22,7 @@ public class PPFMultiImageModel: NSObject {
     /// 第一个要显示的索引
     @objc dynamic var currentIndex:Int
     
-    init?(urls:[URL],images:[UIImage],currentIndex:Int = 0,selectedColor:UIColor = UIColor(white: 0.4, alpha: 1.0),unselectedColor:UIColor = UIColor(white: 0.6, alpha: 1.0)) {
+    public init?(urls:[URL],images:[UIImage],currentIndex:Int = 0,selectedColor:UIColor = UIColor(white: 0.4, alpha: 1.0),unselectedColor:UIColor = UIColor(white: 0.6, alpha: 1.0)) {
         guard currentIndex > -1 && currentIndex < urls.count + images.count else{
             print("PPFMultiImage`s current index is not in bounds of datas(urls and images)")
             return nil

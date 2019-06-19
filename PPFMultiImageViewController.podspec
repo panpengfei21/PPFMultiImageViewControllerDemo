@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "PPFMultiImageViewController"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "多图展示,可滑动,可缩放"
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +80,7 @@ you can use this lib to show multipart image ,and slide or zoom it
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/panpengfei21/PPFMultiImageViewController.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/panpengfei21/PPFMultiImageViewControllerDemo.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
