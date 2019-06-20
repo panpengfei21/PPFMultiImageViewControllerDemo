@@ -1,7 +1,7 @@
 # PPFMultiImageViewControllerDemo
 
 ## 效果
-![multiimageViewController](https://upload-images.jianshu.io/upload_images/2261768-638ef7170056bcc5.gif?imageMogr2/auto-orient/strip)
+![multiimageViewController](https://upload-images.jianshu.io/upload_images/2261768-4c1945d5d53d25a0.gif?imageMogr2/auto-orient/strip)
 
 ## 引入
 
