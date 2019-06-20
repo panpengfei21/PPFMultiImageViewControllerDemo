@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func tapForAction(_ sender: Any) {
+    @IBAction func tapForPresenting(_ sender: Any) {
         let url0 = URL(string: "http://e.hiphotos.baidu.com/image/pic/item/4034970a304e251fb1a2546da986c9177e3e53c9.jpg?123")!
         let url1 = URL(string: "http://e.hiphotos.baidu.com/image/pic/item/4034970a304e251fb1a2546da986c9177e3e53c9.jpg?4")!
         let url2 = URL(string: "http://e.hiphotos.baidu.com/image/pic/item/4034970a304e251fb1a2546da986c9177e3e53c9.jpg?8")!
@@ -24,6 +24,18 @@ class ViewController: UIViewController {
         let vc = PPFMultiImageViewController(model: m)
         vc.delegate = self
         self.present(vc, animated: true, completion: nil)
+    }
+    
+    @IBAction func tapForShow(_ sender: Any) {
+        let url0 = URL(string: "http://e.hiphotos.baidu.com/image/pic/item/4034970a304e251fb1a2546da986c9177e3e53c9.jpg?123")!
+        let url1 = URL(string: "http://e.hiphotos.baidu.com/image/pic/item/4034970a304e251fb1a2546da986c9177e3e53c9.jpg?4")!
+        let url2 = URL(string: "http://e.hiphotos.baidu.com/image/pic/item/4034970a304e251fb1a2546da986c9177e3e53c9.jpg?8")!
+        let list = [url0,url1,url2]
+        let m = PPFMultiImageModel(urls: list, images: [])!
+        m.isShowBackButton = false
+        let vc = PPFMultiImageViewController(model: m)
+        vc.delegate = self
+        navigationController?.pushViewController(vc, animated: true)
     }
 }
 

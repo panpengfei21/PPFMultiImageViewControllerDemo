@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "PPFMultiImageViewController"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "多图展示,可滑动,可缩放"
 
   # This description is used to generate tags and improve search results.

@@ -16,7 +16,7 @@ public class PPFMultiImageViewController: UIViewController {
     var pageViewController:UIPageViewController!
 
     weak var pageControl:UIPageControl!
-    weak var backB:UIButton!
+    weak var backB:UIButton?
 
     public weak var delegate:PPFMultiImageViewController_delegate?
     
@@ -73,8 +73,14 @@ public class PPFMultiImageViewController: UIViewController {
         }()
 
         backB = {
+            guard dataModel.isShowBackButton else{
+                return nil
+            }
             let b = UIButton(type: UIButton.ButtonType.custom)
-            b.setImage(UIImage(named: "backImage"), for: .normal)
+            let myBundle = Bundle(for: PPFMultiImageViewController.self)
+            let path = myBundle.path(forResource: "backImage@\(Int(UIScreen.main.scale))x", ofType: "png")!
+            let image = UIImage(contentsOfFile: path)
+            b.setImage(image, for: .normal)
             b.translatesAutoresizingMaskIntoConstraints = false
             b.addTarget(self, action: #selector(PPFMultiImageViewController.tapForBackButton(_:)), for: .touchUpInside)
             view.addSubview(b)
@@ -91,8 +97,8 @@ public class PPFMultiImageViewController: UIViewController {
         
         if #available(iOS 11.0, *) {
             let layout = view.safeAreaLayoutGuide
-            backB.topAnchor.constraint(equalTo: layout.topAnchor, constant: 20).isActive = true
-            backB.leftAnchor.constraint(equalTo: layout.leftAnchor, constant: 20).isActive = true
+            backB?.topAnchor.constraint(equalTo: layout.topAnchor, constant: 20).isActive = true
+            backB?.leftAnchor.constraint(equalTo: layout.leftAnchor, constant: 20).isActive = true
             
             pageControl.centerXAnchor.constraint(equalTo: layout.centerXAnchor).isActive = true
             pageControl.bottomAnchor.constraint(equalTo: layout.bottomAnchor, constant: -10).isActive = true
@@ -100,8 +106,8 @@ public class PPFMultiImageViewController: UIViewController {
             pView.leftAnchor.constraint(equalTo: layout.leftAnchor).isActive = true
             pView.rightAnchor.constraint(equalTo: layout.rightAnchor).isActive = true
         }else {
-            backB.topAnchor.constraint(equalTo: view.topAnchor, constant: 10).isActive = true
-            backB.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 10).isActive = true
+            backB?.topAnchor.constraint(equalTo: view.topAnchor, constant: 10).isActive = true
+            backB?.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 10).isActive = true
 
             pageControl.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
             pageControl.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -10).isActive = true

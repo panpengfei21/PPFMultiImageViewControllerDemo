@@ -15,10 +15,11 @@ public class PPFMultiImageModel: NSObject {
     let images:[UIImage]
     
     /// 被选中时的颜色
-    let selectedColor:UIColor
+    public var selectedColor:UIColor
     /// 未选中时的颜色
-    let unselectedColor:UIColor
-    
+    public var unselectedColor:UIColor
+    /// 是否显示后退按键 default:true
+    public var isShowBackButton = true
     /// 第一个要显示的索引
     @objc dynamic var currentIndex:Int
     
